@@ -1,0 +1,19 @@
+{
+  "name": "magi-llm",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build:css": "lessc document.less document.css",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.78.1"
+  },
+  "devDependencies": {
+    "less": "^4.2.0"
+  }
+}
